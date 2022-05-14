@@ -7,11 +7,6 @@ import (
 )
 
 func main() {
-
-	fmt.Println("hello world")
-}
-
-func scrape() {
 	c := colly.NewCollector(
 		colly.AllowedDomains("en.wikipedia.org"),
 	)
